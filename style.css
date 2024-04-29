@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('assets/SaoLuis.png');
+    background-repeat: no-repeat, repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container__form{
+    height: 508px;
+    width: 435px;
+    background-color: #003566;
+    opacity: 85%;
+}
+
+.container__line{
+    height: 2px;
+    width: 435px;
+    background-color: black;
+}
