@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
+
+:root{
+    --color-text: #C4CCD9;
+    --background-form: #003566;
+    --border-button: #000814;
+    --color-button: #FFD60A;
+    --border-form: #FFC300; 
+}
+
 body{
     height: 100vh;
     width: 100%;
@@ -16,15 +25,77 @@ body{
 
 }
 
+.form__card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .container__form{
     height: 508px;
     width: 435px;
-    background-color: #003566;
+    background-color: var(--background-form);
     opacity: 85%;
+    border-radius: 6px;
+    border: 2.5px solid var(--border-form);
+
+}
+
+.form .box__form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-bottom: 11px;
+    gap: 5px;
+}
+
+.form{
+    margin-top: 10%;
+    margin-bottom: 8%;
+}
+
+
+.label{
+    font-size: 25px;
+    color: var(--color-text);
+}
+
+.input{
+    width: 384px;
+    height: 37px;
+    border-radius: 6px;
+    background-color: var(--color-text);
+}
+
+.container__title{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .container__line{
     height: 2px;
-    width: 435px;
-    background-color: black;
+    width: 430px;
+    background-color: var(--border-form);
+}
+
+
+.container__buttons{
+    height: 78px;
+    background-color: var(--background-form);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 30%;
+}
+
+.container__buttons button{
+    width: 90px;
+    height: 33px;
+    background-color: var(--color-button);
+    border: 4px solid var(--border-button);
+    border-radius: 6px;
 }

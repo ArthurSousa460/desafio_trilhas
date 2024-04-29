@@ -8,18 +8,86 @@
 </head>
 <body>
     <header>
-
     </header>
-    <main>
-        <div class="container__form">
-            <h1 class="container__title">Fomulário de inscrção</h1>
-            <div class="container__line"></div>
-            <form action="">
-                <label for="input__name">Nome</label>
-                <input type="text" id="input__name" placeholder="Digite seu nome">
-                <label for=""></label>
-            </form>
+    <main class="main">
+        <section class="form__card on">
+            <div class="container__form ">
+                <h1 class="container__title">Fomulário de inscrição</h1>
+                <div class="container__line"></div>
+                <form action="" class="form">
+                    <div class="box__form">
+                        <label for="name" class="label">Nome</label>
+                        <input type="text" id="name" placeholder="Nome" class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="email" class="label">E-mail</label>
+                        <input type="email" id="email" placeholder="E-mail" class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="date"  class="label">Data de nascimento</label>
+                        <input type="date" id="date" class="input">
+                    </div>
+                </form>
+                <div class="container__line"></div>
+                <div class="container__line"></div>
+                    <div class="container__buttons">
+                        <button type="button">Anterior</button>
+                        <button type="button"> próximo</button>
+                    </div>
         </div>
+        </section>
+        <section class="form__card">
+            <div class="container__form">
+                <h1 class="container__title">Fomulário de inscrição</h1>
+                <div class="container__line"></div>
+                <form action="" class="form">
+                    <div class="box__form">
+                        <label for="cpf" class="label">CPF</label>
+                        <input type="number" id="cpf" placeholder="CPF" class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="rg" class="label">RG</label>
+                        <input type="number" id="rg" placeholder="RG" class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="cep"  class="label">CEP</label>
+                        <input type="number" id="cep" class="input">
+                    </div>
+                </form>
+                <div class="container__line"></div>
+                    <div class="container__buttons">
+                        <button type="button">Anterior</button>
+                        <button type="button"> próximo</button>
+                    </div>
+        </div>
+        </section>
+        <section class="form__card">
+            <div class="container__form">
+                <h1 class="container__title">Documentação</h1>
+                <div class="container__line"></div>
+                <form action="" class="form">
+                    <div class="box__form">
+                        <label for="" class="label">CPF</label>
+                        <input type="file" id=""class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="certificate" class="label">Certificado ensino médio</label>
+                        <input type="file" id="certificate" class="input">
+                    </div>
+                    <div class="box__form">
+                        <label for="certificate-local"  class="label">Comprovante de residência</label>
+                        <input type="file" id="certificate-local" class="input">
+                    </div>
+                </form>
+                <div class="container__line"></div>
+                    <div class="container__buttons">
+                        <button type="button">Anterior</button>
+                        <button type="button"> próximo</button>
+                    </div>
+        </div>
+        </section>
+
+    </div>
     </main>
     <footer>
 
