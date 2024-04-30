@@ -103,13 +103,29 @@ body{
     border-radius: 6px;
 }
 
-.container__buttons__trail{
+.section{
+    margin-bottom: 30%;
+}
+
+.trail__container__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trail__container__buttons button{
     color: var(--border-button);
     text-align: center;
     text-decoration: none;
-    width: 90px;
-    height: 33px;
+    width: 232px;
+    height: 43px;
     background-color: var(--color-button);
     border: 4px solid var(--border-button);
     border-radius: 6px;
+    margin-top: 7%;
+}
+
+
+.form__trail{
+    margin-top: 25%;
 }
