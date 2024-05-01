@@ -67,6 +67,17 @@ body{
     background-color: var(--color-text);
 }
 
+.input__file{
+    display: none;
+}
+
+.upload{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
 .container__title{
     color: white;
     font-size: 30px;
