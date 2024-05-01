@@ -16,7 +16,7 @@
 body{
     height: 100vh;
     width: 100%;
-    background-image: url('assets/SaoLuis.png');
+    background-image: url('/src/assets/SaoLuis.png');
     background-repeat: no-repeat, repeat;
     background-size: cover;
     display: flex;
